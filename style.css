@@ -10,6 +10,7 @@
   --body-color: #0A0A0B;
   --title-color: #F1F2F3;
   --container-color: #111213;
+  --first-color: #4177DC;
 }
 
 .container {
@@ -270,25 +271,56 @@ h3{
   border-radius: 20px;
   padding-top: 32px;
   padding-left: 24px;
-  background: var(--container-color, #111213);
+  background: var(--container-color, #050505);
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
   max-width: 248px;
   height: 312px;
-  margin-left: 106px;
+  /* margin-left: 106px; */
 }
+
 
 .titel_text_style {
   text-align: center;
+  font-family: exo;
   font-size: 24px;
   color:var(--title-color) ;
 }
 
-.car-logo-btn {
+.car-logo {
+  display: flex;
+  align-items: center;
+  /* display: flex;
   width: 52px;
   height: 52px;
+  margin: 50px 300px;
+  margin: 42px 21px;
+  grid-area: 42px;
+  border-radius: 16px; */
+  /* background: #262627;
+  border: none; */
+}
+
+.car-model h1,h5 :hover {
+  color: var(--first-color, #4177DC);
+  text-shadow: 0px 0px 32px #346DDA;
+  font-family: Exo;
+}
+
+.info_text_style :hover {
+  color: var(--first-color, #4177DC);
+  text-shadow: 0px 0px 32px #346DDA;
+  font-family: Exo;
+  transition: 0.5s;
+}
+.car-logo-btn {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  margin: 50px 300px;
   margin: 42px 21px;
   grid-area: 42px;
   border-radius: 16px;
-  background: #262627;
+  background: #0b0b0b;
   border: none;
 }
 
@@ -296,6 +328,8 @@ h3{
   font-size: 24px;
   font-weight: 600;
   line-height: 140%;
+  font-family: exo;
+  background-color:transparent;
   color: var(--title-color, #F1F2F3);
 }
 
@@ -303,12 +337,214 @@ h3{
   font-size: 16px;
   font-weight: 400;
   line-height: 140%; 
+  font-family: exo;
+  margin-bottom: 32px;
+  background-color:transparent;
   color: var(--text-color, #BABEC4);
+}
+
+.img-car {
+border-radius: 50px;
+ 
+  /* opacity: 0.2; */
+}
+.img_hr {
+ /* background-color:transparent; */
+ 
+ 
+}
+
+.cros {
+  /* padding-top: 51px; */
 }
 
 .info_text_style {
   font-size: 20px;
   font-weight: 600;
   line-height: 140%;
+  font-family: exo;
+  margin-top: 42px;
   color: var(--title-color, #F1F2F3);
+  background-color:transparent;
 }
+
+.rek-car {
+  display:inline-block;
+  margin-top: 72px;
+}
+
+.left-text h1 {
+  color: var(--title-color, #F1F2F3);
+font-family: Exo;
+font-size: 24px;
+margin-top: 72px;
+font-weight: 600;
+line-height: 140%;
+}
+
+.left-text p {
+  color: var(--text-color, #BABEC4);
+font-family: Exo;
+font-size: 16px;
+margin-top: 32px;
+font-weight: 400;
+line-height: 140%;
+}
+
+.Subscribe {
+  display: inline-flex;
+padding: 14px 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+margin-top: 42px;
+border-radius: 4px;
+background: var(--first-color, #4177DC);
+}
+
+.buttun-btn:hover {
+
+}
+
+.Subscribe a {
+  color: var(--white-color, #FFF);
+font-family: Exo;
+font-size: 16px;
+font-weight: 500;
+background-color: transparent;
+line-height: 140%;
+}
+
+.right-img {
+  display:inline-block;
+  width: 50%;
+  margin-top: 106px;
+  margin-left: 168px;
+}
+
+.logo-car-site {
+  display: flex;
+  
+}
+.btn-logo {
+  display: flex;
+  margin: 152px 65px;
+  gap: 106px;
+}
+
+/* ******** FOOTER ******* */
+
+.footer-list {
+  display: flex;
+  gap: 190px;
+}
+
+.elecar-footer img {
+width: 100px; 
+}
+
+.elecar-footer p {
+  padding-top: 24px;
+  color: var(--text-color, #BABEC4);
+font-family: Exo;
+font-size: 13px;
+font-weight: 400;
+line-height: 140%; 
+}
+
+.company-link h1 {
+  color: var(--title-color, #F1F2F3);
+font-family: Exo;
+font-size: 20px;
+margin-top: -3px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+
+.company-link :hover {
+  color: var(--first-color, #4177DC);
+  text-shadow: 0px 0px 32px #346DDA;
+  font-family: Exo;
+  transition: 0.5s;
+}
+
+.company-link a {
+  display: flex;
+  padding-top: 10px; 
+  color: var(--text-color, #BABEC4);
+/* D - normal-font-size */
+font-family: Exo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+}
+
+.information h1 {
+  color: var(--title-color, #F1F2F3);
+/* D - h3-font-size */
+font-family: Exo;
+font-size: 20px;
+margin-top: -5px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+
+.information :hover {
+  color: var(--first-color, #4177DC);
+  text-shadow: 0px 0px 32px #346DDA;
+  font-family: Exo;
+  transition: 0.5s;
+}
+.information a {
+  display: flex;
+  color: var(--text-color, #BABEC4);
+
+/* D - normal-font-size */
+font-family: Exo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+padding: 7px;
+}
+
+.follow-us h1 {
+  color: var(--title-color, #F1F2F3);
+margin-top: -5px;
+/* D - h3-font-size */
+font-family: Exo;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 28px */
+}
+
+.follow-us img {
+  display: inline-block;
+  padding-top: 15px;
+  gap: 10px;
+  padding-left: 5px;
+}
+
+.the-end-text {
+  display: flex;
+  margin: 98px auto 32px;
+}
+
+.the-end-text img {
+  margin: 0 0 0 480px;
+}
+
+.the-end-text p {
+  color: var(--text-color-light, #888B91);
+/* M - smaller-font-size */
+font-family: Exo;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 16.8px */
+}
+
