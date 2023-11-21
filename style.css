@@ -171,37 +171,14 @@ a {
 }
 
 .into__item {
-  align-self: center;
   position: relative;
   top: -60px;
   right: -285px;
-  width: 197px;
-  height: 104px;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.10);
-  backdrop-filter: blur(8px);
+  background: none;
 }
 
-.item__title {
-  text-align: center;
-  color: var(--white-color, #FFF);
-  /* D - h3-font-size */
-  font-family: Exo;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-}
-
-.item__subtitle {
-  text-align: center;
-  width: 157px;
-  color: var(--white-color, #FFF);
-  text-align: center;
-  /* D - smaller-font-size */
-  font-family: Exo;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
+.item__img {
+  background: none;
 }
 
 .into__right {
