@@ -160,3 +160,69 @@ a {
   margin-left: 47%;
 }
 /* End hero section */
+
+
+.porsche {
+  margin-top: 64px;
+  margin-bottom: 12px;
+}
+
+.span {
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+}
+
+.porsche {}
+
+.imgicn {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.img {
+  margin-top: 8px;
+  display: inline-block;
+}
+
+h1 {
+  margin-top: 31px;
+}
+
+button {
+  background-color: rgb(85, 85, 175);
+}
+
+.addition {
+  display: flex;
+}
+
+.btn {
+  margin-left: 91px;
+  border-radius: 20px 0px;
+  background: var(--first-color, #4177DC);
+  padding: 12px;
+}
+
+box {
+  width: 258px;
+  height: 328px;
+  border: 3px solid color #4177DC;
+}
+.picture{
+  margin-top: 12px;
+}
+.boxs{
+  display: inline-block;
+  margin-right: 70px;
+}
+h3{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  margin-left: 501px;
+
+}
