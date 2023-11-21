@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --body-color: #0A0A0B;
+  --title-color: #F1F2F3;
+  --container-color: #111213;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -175,8 +181,6 @@ img {
   display: block;
 }
 
-.porsche {}
-
 .imgicn {
   display: inline-block;
   margin-top: 20px;
@@ -225,4 +229,86 @@ h3{
   text-align: center;
   margin-left: 501px;
 
+}
+
+/* Kamronbek */
+
+.product {
+  /* background-color:var(--body-color); */
+  display: flex;
+}
+.product_heading {
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+/* .product_container {
+  display: flex;
+} */
+.product_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 49px;
+  
+}
+
+/* .card2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 248px;
+  height: 312px;
+  gap: 88px;
+  margin-left: 126px;
+  border-radius: 20px;
+  background: var(--container-color, #111213);
+} */
+.card2 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* text-align: center; */
+  border-radius: 20px;
+  padding-top: 32px;
+  padding-left: 24px;
+  background: var(--container-color, #111213);
+  max-width: 248px;
+  height: 312px;
+  margin-left: 106px;
+}
+
+.titel_text_style {
+  text-align: center;
+  font-size: 24px;
+  color:var(--title-color) ;
+}
+
+.car-logo-btn {
+  width: 52px;
+  height: 52px;
+  margin: 42px 21px;
+  grid-area: 42px;
+  border-radius: 16px;
+  background: #262627;
+  border: none;
+}
+
+.car-model h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--title-color, #F1F2F3);
+}
+
+.car-model h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%; 
+  color: var(--text-color, #BABEC4);
+}
+
+.info_text_style {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--title-color, #F1F2F3);
 }
