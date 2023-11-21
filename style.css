@@ -36,6 +36,7 @@ a {
 
 /* Start header section */
 .navbar {
+  height: 80px;
   z-index: 10;
   width: 100%;
   position: fixed;
@@ -168,6 +169,69 @@ a {
 }
 /* End hero section */
 
+/* Start info section */
+.car__into {
+  margin-left: 4%;
+  margin-top: 100px;
+  display: flex;
+  gap: 90px;
+}
+
+.into__item {
+  position: relative;
+  top: -60px;
+  right: -285px;
+  background: none;
+}
+
+.item__img {
+  background: none;
+}
+
+.into__right {
+  align-self: center;
+}
+
+.into__title {
+  margin-bottom: 24px;
+  color: var(--title-color, #F1F2F3);
+  /* D - h2-font-size */
+  font-family: Exo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 33.6px */
+}
+
+.into__subtitle {
+  width: 401px;
+  color: var(--text-color, #BABEC4);
+  /* D - normal-font-size */
+  font-family: Exo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  margin-bottom: 48px;
+}
+
+.into__btn {
+  display: inline-flex;
+  padding: 14px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--first-color, #4177DC);
+  color: var(--white-color, #FFF);
+  font-family: Exo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  border: none;
+}
+/* End info section */
 
 .porsche {
   margin-top: 64px;
